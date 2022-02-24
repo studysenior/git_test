@@ -11,6 +11,10 @@ public class GitTestApplication {
 	@GetMapping("/")
 	public void goHome() {
 		System.out.println("branch test #1");
+		System.out.println("branch test #2");
+		System.out.println("branch test #3");
+		System.out.println("branch test #4");
+		System.out.println("branch test #5");
 	}
     public static void main(String[] args) {
         SpringApplication.run(GitTestApplication.class, args);
