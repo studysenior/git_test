@@ -15,6 +15,8 @@ public class GitTestApplication {
 		System.out.println("branch test #3");
 		System.out.println("branch test #4");
 		System.out.println("branch test #5");
+		System.out.println("branch test #6");
+		System.out.println("branch test #7");
 	}
     public static void main(String[] args) {
         SpringApplication.run(GitTestApplication.class, args);
